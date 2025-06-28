@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PlayGeh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000000;
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+      background-image: url('');
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+
+    .grid-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+      max-width: 800px;
+      justify-content: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .button {
+      width: 140px;
+      height: 90px;
+      background: linear-gradient(to bottom, #252626, #252626);
+      border-radius: 8px;
+      border: 0.8px solid #212429;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.0);
+      transition: box-shadow 0.4s ease, transform 0.3s ease;
+      user-select: none;
+    }
+
+    .button:active {
+      transform: scale(1.06);
+      box-shadow: 0px 0px 10px rgba(255, 255, 255, 1.2);
+    }
+
+    .button:hover {
+      box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+      transform: scale(1.06);
+    }
+
+    .logo-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+    }
+
+    .button img {
+      max-width: 100%;
+      max-height: 100%;      
+      object-fit: contain;
+    }
+
+    .label {
+      height: 25px;
+      background-color: #3e3f40;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 4px;
+      font-size: clamp(10px, 2.5vw, 12px);
+      font-weight: bold;
+      line-height: 1.1;
+      overflow: hidden;
+      border-top: 1px solid #212429;
+      text-transform: uppercase;
+      user-select: none;
+    }
+
+    /* Remove foco azul ao segurar botao*/
+    .foco {
+      -webkit-tap-highlight-color: #212429;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <a class="foco" href="/playtvmenu/categoria/aviso.html" target="_blank" draggable="false" rel="nofollow">
+      <div class="button">
+        <div class="logo-container">
+          <img src="https://i.postimg.cc/zvLDnqgs/1751013216351.png" alt="" draggable="false" oncontextmenu="return false">
+        </div>
+        <div class="label">FUTEBOL AO VIVO </div>
+      </div>
+    </a>
+    <!-- ...demais botões... -->
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("img").forEach(img => {
+        img.setAttribute("draggable", "false");
+        img.setAttribute("oncontextmenu", "return false");
+      });
+      // Animação em cascata para botões (opcional, se quiser usar)
+      document.querySelectorAll(".button").forEach((btn, i) => {
+        btn.style.animationDelay = `${i * 0.05}s`;
+      });
+    });
+  </script>
+</body>
+</html>
