@@ -1,0 +1,111 @@
+
+
+ <script type="text/javascript">
+	atOptions = {
+		'key' : '6717d78b5956505563b5fafaaff751fd',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//orientsweptautopsy.com/6717d78b5956505563b5fafaaff751fd/invoke.js"></script>
+
+
+
+<script>
+        window.onload = function () {
+            /* parameters */
+            var initial_delay_seconds = 0;
+            var interval_seconds = 10;
+            var unlimited = false;
+            var max_count = 2;
+            var URL = "https://orientsweptautopsy.com/mqtki2pd?key=0d2ccb345f3f5db24862582b05c3d8f1";
+            /* DO NOT TOUCH */
+            var count = 0;
+            var anchor = document.createElement("a");
+            anchor.style = "position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 2147483647; background-color: #000; opacity: 0.01;";
+            anchor.href = URL;
+            anchor.target = "_blank";
+            anchor.style.display = "none";
+            setTimeout(function () {anchor.style.display = "block"}, initial_delay_seconds*1000);
+            anchor.onclick = function (e) {
+                anchor.style.display = "none";
+                count += 1;
+                if (unlimited || count < max_count) {
+                    setTimeout(function () {anchor.style.display = "block"}, interval_seconds*1000);
+                }
+            }
+            anchor = document.body.appendChild(anchor);
+        };
+</script>
+
+
+
+  
+
+
+<!-- Botão centralizado -->
+<div class="separator" style="clear: both; text-align: center;">
+  <a href="go:CATEGORIAS" style="margin-left: 1em; margin-right: 1em;">
+    <img border="0" data-original-height="100" data-original-width="337" height="100"
+         src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX5yGJdGZGDjvNQg9yWMPaVQ1GYHKozio9ozMIMpX3JaJapnqg9X3uCls7YhKj2eGSzvSgEoOSPcHAVl4ksqR6zWg60V7sSyrHhyQk7NmWAQJukpJUrKhmB4V3QeJiFzbf-jj76jGsD68eFqyiKw54DFfjjop8aXs77RvrXlvKm9OqkYXUZqGClRzeeA/s337/22350838_ico.png"
+         width="337" />
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+body {
+
+background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhc75vScQsaNSUy4sV7aq_kdDJZ0A7FLV75t9N8CHqffSvvy7SIfxRostwtPiuUkaXwDGq_drtjVoPzRmkFfbql2_I3KPX4qI1IU2zVYWPar5JCV0ArFQ_UbWn_ylMdbHy_oI1z1-Sle7jE7M2GzaNlaz-KFfpNEioJfD1wbFMJDTSNUrT9QJxnqA5i0w/s1600/IMG_20240223_180451.jpg);
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  
+
+  
+
+  background-color: #ffffff;
+
+}
+
+</style>
+
+
+ 
+
+        
+
+        
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
