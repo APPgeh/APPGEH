@@ -5,7 +5,7 @@ export default {
 
     if (url.pathname === "/tnt/index.m3u8") {
       return Response.redirect(
-        "https://SEU-LINK-REAL-AQUI/index.m3u8",
+        "https://cdn2embedtvonline.site/NOLJTuyMHstntDGMBgYSh2PP4XJU/index.m3u8",
         302
       );
     }
